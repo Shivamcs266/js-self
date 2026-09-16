@@ -17,9 +17,9 @@ const myArr2 = new Array (1, 2, 3, 4)
 // myArr.shift()     // to remove the value which is add in start the array.
 // console.log(myArr);
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(9));
-// console.log(myArr.indexOf(3));
+// console.log(myArr.includes(8)); //it 8 is having then show true otherwise show False.
+// console.log(myArr.indexOf(4));  // it is given the 4th number array value.
+// console.log(myArr.indexOf(3));  // it is also given the 3rd number array value.
 
 // const newArr = myArr.join()
 
@@ -31,7 +31,7 @@ const myArr2 = new Array (1, 2, 3, 4)
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3)  //print slice
+const myn1 = myArr.slice(1,3)  //give the 1,2 value. expect 0 or 3 number array.
 
 console.log(myn1);
 console.log("B", myArr);
