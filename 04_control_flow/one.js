@@ -47,3 +47,36 @@
 
 // console.log(`User power: ${power}`);  //block scope curly bracic ke bahar execute nhi karta, isi jagh const ke alawa agar var variable main value assign krte to execute ho jata without error ke.
 
+
+
+// const balance = 1000
+
+// //if (balance > 500) console.log("test"), console.log("test2"); // not a good pratice
+
+// if (balance < 500) {
+//     console.log("less than");
+
+// } else if (balance < 750) {
+//     console.log("less than 750");
+
+// } else if (balance < 900) {
+//     console.log("less than 900");
+    
+// } else {
+//     console.log("less than 1200");
+// }
+
+const userLoggedIn = true
+const debitcard = true
+const loggedInFromGoogle = true
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitcard ){  // && - "to add multiple statment"
+    console.log("Allow to buy course");
+    
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {      // use multiple condition inme se ek bhi true hogi to execute ho jayega.
+    console.log("user logged in successfully");
+    
+}
