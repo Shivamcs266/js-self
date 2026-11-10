@@ -35,5 +35,13 @@
 // const myH1 = document.querySelectorAll('h1') == assin variable in myH1
 // myH1 = its provide the NodeList
 // myH1.style.color = "green" = it is not run because it shoes the like a Array, but not have a property of Array.
-// myH1[0].style.color = "green" = it works ! because assign the 0 element for run the color property.
+// myH1[0].style.color = "green" = it works ! because assign the 0 element for run the color property. 
 
+//**************tempList and nodeList *************
+// it is look like a array but not pure array.
+// if i converted the tempList for array we use Array.from('tempList') : it shows the functionality same as Array. 
+// Array.from(tempClassList)
+// const.myConvertedArray = Array.from(tempClassList)
+// myConvertedArray.forEach(function(li) {
+// li.style.color = "orange"
+// })
